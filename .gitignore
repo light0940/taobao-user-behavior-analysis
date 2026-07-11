@@ -1,0 +1,14 @@
+.venv/
+.idea/
+__pycache__/
+*.pyc
+
+raw_data/*.csv
+raw_data/*.zip
+raw_data/*.parquet
+
+*.log
+*.tmp
+
+.DS_Store
+Thumbs.db
