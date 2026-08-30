@@ -134,15 +134,15 @@
 
 ### 用户行为总览
 
-![用户行为总览](images/01_用户行为总览.png)
+![用户行为总览](images/01_user_overview.png)
 
 ### 用户级转化漏斗
 
-![用户级转化漏斗](images/02_转化漏斗诊断.png)
+![用户级转化漏斗](images/02_conversion_funnel.png)
 
 ### 加购召回诊断
 
-![加购召回诊断](images/03_加购召回诊断.png)
+![加购召回诊断](images/03_cart_recall_diagnosis.png)
 
 ## 项目结构
 
@@ -160,9 +160,9 @@ taobao-user-behavior-analysis/
 │  ├─ taobao_user_behavior_dashboard.pbix
 │  └─ cart_recall_by_category.csv
 ├─ images/
-│  ├─ 01_用户行为总览.png
-│  ├─ 02_转化漏斗诊断.png
-│  └─ 03_加购召回诊断.png
+│  ├─ 01_user_overview.png
+│  ├─ 02_conversion_funnel.png
+│  └─ 03_cart_recall_diagnosis.png
 ├─ sample_data.py
 ├─ clean_data.py
 ├─ requirements.txt
