@@ -186,7 +186,7 @@ python sample_data.py
 python clean_data.py
 ```
 
-4. 将 `raw_data/UserBehavior_clean.csv` 导入 MySQL 的 `user_behavior` 表。
+4. 先执行 `sql/01_create_database_and_table.sql` 创建库表，再将 `raw_data/UserBehavior_clean.csv` 导入 `user_behavior` 表（可用 Navicat 导入向导或 `LOAD DATA` 语句）。
 5. 依次执行 `sql/` 目录下的 SQL 脚本。
 6. 使用 Power BI 打开 `dashboard/taobao_user_behavior_dashboard.pbix` 查看看板。
 
